@@ -1,7 +1,6 @@
 import rx._
 
 object Pregunta02 extends App{
-  implicit val ctx: Ctx.Owner = Ctx.Owner.safe()
 
   val masa: Var[Double] = Var(1000.0)
   val velocidad: Var[Double] = Var(0.0)
