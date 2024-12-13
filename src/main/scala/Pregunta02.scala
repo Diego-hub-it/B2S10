@@ -12,7 +12,7 @@ object Pregunta02 extends App{
   val umbral: Double = 1000000.0
 
   energiaCinetica.trigger {
-     val enerCin = energiaCinetica.now
+    val enerCin = energiaCinetica.now
     println("Energía cinética actual: "+ enerCin)
     if (enerCin > umbral) {
       println("Alerta: Energía cinética muy alta, reduzca la velocidad.")

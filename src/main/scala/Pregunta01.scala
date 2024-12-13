@@ -8,7 +8,8 @@ object Pregunta01 extends App{
   }
 
   suma.trigger {
-    println("Suma actual = " + suma)
+    val sum = suma.now
+    println("Suma actual = " + sum)
   }
 
   println("Agregando calificaciones...")
